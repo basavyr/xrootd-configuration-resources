@@ -1,0 +1,138 @@
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:91:42: error:
+      member access into incomplete type 'XrdVersionInfo'
+                                   myInfo->vStr, urInfo.vStr, mmv, majv, minv);
+                                         ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:91:56: error:
+      member access into incomplete type 'XrdVersionInfo'
+                                   myInfo->vStr, urInfo.vStr, mmv, majv, minv);
+                                                       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:144:17: error:
+      use of undeclared identifier 'XrdVERSIONINFOSFX'
+   if (n+sizeof(XrdVERSIONINFOSFX) > sizeof(vName))
+                ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:146:42: error:
+      use of undeclared identifier 'XrdVERSIONINFOSFX'
+   strcpy(vName, pname); strcpy(vName+n, XrdVERSIONINFOSFX);
+                                         ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:160:46: error:
+      invalid application of 'sizeof' to an incomplete type 'XrdVersionInfo'
+   memcpy(static_cast<void*>( &urInfo ), vP, sizeof(XrdVersionInfo)-1);
+                                             ^     ~~~~~~~~~~~~~~~~
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:164:14: error:
+      member access into incomplete type 'XrdVersionInfo'
+   if (myInfo->vNum == urInfo.vNum)
+             ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:165:17: error:
+      member access into incomplete type 'XrdVersionInfo'
+      if (myInfo->vNum != XrdVNUMUNK
+                ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:171:14: error:
+      member access into incomplete type 'XrdVersionInfo'
+   if (myInfo->vNum == XrdVNUMUNK || urInfo.vNum == XrdVNUMUNK)
+             ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:175:27: error:
+      member access into incomplete type 'XrdVersionInfo'
+                   (myInfo->vNum == XrdVNUMUNK ? "unreleased ":""),myInfo->vStr,
+                          ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:175:74: error:
+      member access into incomplete type 'XrdVersionInfo'
+                   (myInfo->vNum == XrdVNUMUNK ? "unreleased ":""),myInfo->vStr,
+                                                                         ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:176:27: error:
+      member access into incomplete type 'XrdVersionInfo'
+                   (urInfo.vNum  == XrdVNUMUNK ? "unreleased ":""),urInfo.vStr);
+                          ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:176:74: error:
+      member access into incomplete type 'XrdVersionInfo'
+                   (urInfo.vNum  == XrdVNUMUNK ? "unreleased ":""),urInfo.vStr);
+                                                                         ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:185:32: error:
+      member access into incomplete type 'XrdVersionInfo'
+   vMajor = XrdMajorVNUM(myInfo->vNum);
+                               ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:186:32: error:
+      member access into incomplete type 'XrdVersionInfo'
+   vMinor = XrdMinorVNUM(myInfo->vNum);
+                               ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:187:32: error:
+      member access into incomplete type 'XrdVersionInfo'
+   pMajor = XrdMajorVNUM(urInfo. vNum);
+                               ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:188:32: error:
+      member access into incomplete type 'XrdVersionInfo'
+   pMinor = XrdMinorVNUM(urInfo. vNum);
+                               ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/./XrdSys/XrdSysPlugin.hh:35:8: note:
+      forward declaration of 'XrdVersionInfo'
+struct XrdVersionInfo;
+       ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:306:22: error:
+      use of undeclared identifier 'urInfo'
+   XrdVERSIONINFODEF(urInfo, unknown, XrdVNUMUNK, "");
+                     ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:306:30: error:
+      use of undeclared identifier 'unknown'
+   XrdVERSIONINFODEF(urInfo, unknown, XrdVNUMUNK, "");
+                             ^
+/Users/basavyr/Library/Mobile Documents/com~apple~CloudDocs/Work/Pipeline/DFCTI/CERN_project/0xrootd_project/xrootd/src/XrdSys/XrdSysPlugin.cc:306:39: error:
+      use of undeclared identifier 'XrdVNUMUNK'
+   XrdVERSIONINFODEF(urInfo, unknown, XrdVNUMUNK, "");
+                                      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+13 warnings and 20 errors generated.
+make[2]: *** [src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysPlugin.cc.o] Error 1
+make[1]: *** [src/CMakeFiles/XrdUtils.dir/all] Error 2
+make: *** [all] Error 2
+    …/XrdCl 
